@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shivender Kumar</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Baloo Bhai 2", cursive;
+        font-size: 10px;
+        text-align: center;
+        word-spacing: 0.3em;
+        background-color: skyblue;
+      }
+
+      h1 {
+        margin: 40px auto;
+        width: 95%;
+        font-size: 50px;
+        border: 5px solid black;
+        padding-bottom: 20px;
+        background-color: sandybrown;
+      }
+
+      .container {
+        width: 95%;
+        margin: 0 auto 0 auto;
+        border-radius: 15px;
+        padding: 20px 60px 70px 60px;
+        color: white;
+        background: rgba(27, 27, 50, 0.5);
+      }
+    
+      .wrapper { 
+      width: 100%;
+      }
+
+      .career-contact {
+        display: flex;
+        justify-content: space-evenly;
+      }
+
+      h2 {
+        font-size: 40px;
+        background-color: slateblue;
+      }
+
+      h3 {
+        font-size: 30px;
+        margin-top: 30px;
+      }
+
+      #contacts img {
+        width: 40px;
+      }
+
+      .img-captions {
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        margin-bottom: 30px;
+        max-width: 100%;
+        margin-left: 0;
+      }
+
+      section,
+      p {
+        font-size: 20px;
+      }
+
+      #career-objective {
+        max-width: 45%;
+        margin-right: 5%;
+        margin-bottom: 10px;
+      }
+
+      #contacts {
+        display: block;
+        max-width: 45%;
+        margin-left: 5%;
+      }
+
+      .img-details {
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: center;
+        margin-top: 30px;
+      }
+
+      em,
+      address {
+        padding-left: 30px;
+        font-size: 17px;
+      }
+
+      .college-ed,
+      .school-ed {
+        margin-bottom: 20px;
+      }
+
+      .languages {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+      }
+
+      .languages img {
+        width: 100px;
+        margin-top: 15px;
+      }
+
+      a {
+        text-decoration: none;
+        color: inherit;
+      }
+
+      ol {
+        margin: 20px auto;
+        text-align: left;
+      }
+
+      .projects {
+        max-width: 45%;
+        margin: 0 auto;
+        padding-left: 10%;
+      }
+
+      @media (max-width: 799px) {
+        h1 {
+          font-size: 40px;
+        }
+
+        h2 {
+          font-size: 30px;
+        }
+
+        h3 {
+          font-size: 25px;
+        }
+
+        section,
+        p {
+          font-size: 20px;
+        }
+
+        .career-contact {
+          flex-direction: column;
+        }
+
+        .img-captions {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          margin-bottom: 30px;
+        }
+
+        #career-objective {
+          max-width: 100%;
+          margin-right: 0;
+        }
+
+        #contacts {
+          display: block;
+          max-width: 100%;
+          margin-left: 0;
+          margin-top: 30px;
+        }
+
+        img {
+          margin-bottom: 10px;
+        }
+
+        em,
+        address {
+          padding-left: 0;
+          font-size: 17px;
+        }
+
+        ol {
+          max-width: 75%;
+          margin: 20px auto;
+          text-align: left;
+        }
+      }
+      
+      @media (max-width: 609px) {
+        .languages {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-bottom: 20px;
+         }
+
+        .projects {
+        max-width: 85%;
+        margin: 0 auto;
+        padding-left: 10%;
+         }
+        }
+    </style>
+
+    <div class="main">
+      <header class="heading">
+        <h1 id="heading-primary">Shivender Kumar</h1>
+      </header>
+
+      <div class="container">
+      <div class="wrapper">
+        <div class="career-contact">
+          <section id="career-objective">
+            <h2 class="heading-secondary">Career Objective</h2>
+            <hr />
+            <br />
+            <p id="career-details">
+              Results-oriented Computer Science major currently attending Baba
+              Mast Nath University. Aiming to leverage proven problem-solving,
+              communication and teamwork skills to successfully fill the
+              Internship role at your company.
+            </p>
+            <p id="career-details-2">
+              Frequently praised as focused by my peers, I can be relied upon to
+              help your company achieve it's goals.
+            </p>
+          </section>
+
+          <section id="contacts">
+            <h2 class="heading-secondary">Contact</h2>
+            <hr />
+            <div class="img-details">
+              <div class="img-captions">
+                <img
+                  src="https://image.flaticon.com/icons/svg/3062/3062634.svg"
+                  alt="Email : "
+                  class="contacts-symbols"
+                  id="email"
+                />
+
+                <em>shivenderkumar761@gmail.com</em>
+              </div>
+              <div class="img-captions">
+                <img
+                  id="phone-number"
+                  src="https://image.flaticon.com/icons/svg/1057/1057123.svg"
+                  alt="Phone No. "
+                  class="contacts-symbols"
+                />
+
+                <em>91-701-586-8674</em>
+              </div>
+              <div class="img-captions" id="address">
+                <img
+                  src="https://image.flaticon.com/icons/svg/1033/1033925.svg"
+                  alt="Address : "
+                  class="contacts-symbols"
+                />
+                <address>322/24 Jagdish Colony, Rohtak, Haryana</address>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <section class="education">
+          <div class="college-ed">
+            <h2 class="heading-secondary">Education</h2>
+            <hr />
+            <h3 id="college">BABA MAST NATH UNIVERSITY</h3>
+
+            <em>Rohtak, Haryana</em><br />
+            <cite
+              >Bachelor of Technology (B.Tech) Computer Science Candidate
+              (Expected graduation May 2021)</cite
+            >
+          </div>
+
+          <div class="school-ed">
+            <h3 id="school">M. S. SARASWATI SR. SEC. SCHOOL</h3>
+
+            <em>Rohtak, Haryana</em><br />
+            <cite>High School (May 2016) </cite>
+          </div>
+        </section>
+
+        <section class="skills">
+          <h2>Skills</h2>
+          <hr />
+
+          <div class="languages">
+            <div class="python">
+              <h3 id="python3.8">Python</h3>
+              <img
+                src="https://image.flaticon.com/icons/svg/1822/1822899.svg"
+                alt="PYTHON"
+              />
+            </div>
+            <div class="html">
+              <h3 id="html5">HTML5</h3>
+              <img
+                src="https://image.flaticon.com/icons/svg/1216/1216733.svg"
+                alt="HTML5"
+              />
+            </div>
+            <div class="css">
+              <h3 id="css3">CSS3</h3>
+              <img
+                src="https://image.flaticon.com/icons/svg/732/732190.svg"
+                alt="CSS3"
+              />
+            </div>
+
+            <div class="js">
+              <h3 id="js-es6">JS <span>(learning)</span></h3>
+              <img
+                src="https://seeklogo.com/images/J/javascript-logo-8892AEFCAC-seeklogo.com.png"
+                alt="JS-ES6"
+              />
+            </div>
+          </div>
+        </section>
+
+        <section class="personal-projects">
+          <h2>Projects</h2>
+          <hr />
+          <div class="projects">
+            <ol>
+              <li>
+                <a
+                  href="https://github.com/PervertKun/Key-Logger"
+                  target="_blank"
+                  >Keylogger</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://github.com/PervertKun/Shiv-s-Calculator-"
+                  target="_blank"
+                  >A Calculator with complete GUI</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://github.com/PervertKun/Space-Invader-Game"
+                  target="_blank"
+                  >A Space Invader Game</a
+                >
+              </li>
+            </ol>
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+  </body>
+</html>
