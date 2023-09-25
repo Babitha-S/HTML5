@@ -1,0 +1,145 @@
+<!-- Document type declares the version of the html to the web browser -->
+<!DOCTYPE html>
+
+<!-- html tag is the root element of the html file -->
+
+<html lang="en">
+  <!-- Head element contains the information of the webpage like title and description of a webpage -->
+  <head>
+    <!-- Website description -->
+    <meta name="description" content="Just another html tutorial" />
+    <!-- Page tab icon also called Favicon  -->
+    <link rel="shortcut icon" href="./help.png" type="image/x-icon" />
+    <!-- Page tab name -->
+    <title>Html Live Class</title>
+    <!-- Adds a little responsiveness to the webpage by making it adjust according to the device viewport or screen size  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <!-- Internal css -->
+  <style>
+    /* h1,
+    h3 {
+      color: blue;
+    }
+
+    h7,
+    h8 {
+      color: rgb(8, 189, 255);
+    }
+
+    my-tag {
+      
+    } */
+  </style>
+  <!-- All the Visible content of the web page is inside the body element  -->
+  <body>
+    <header>
+      This is <code>header</code> tag to show the header of the page or some
+      section
+    </header>
+    <nav>The <code>nav</code> tag contains the navigation links</nav>
+    <!-- Main tag represents the main content of the page -->
+    <main>
+      <!-- To represent a particular section of the page -->
+      <section>
+        <!-- Heading tags based on priority -->
+        <h1>Heading 1</h1>
+        <h2>Heading 2</h2>
+        <h3>Heading 3</h3>
+        <h4>Heading 4</h4>
+        <h5>Heading 5</h5>
+        <h6>Heading 6</h6>
+
+        <!-- Pre tag will represent the content as it is written including the number of white spaces -->
+
+        These are 6 heading tags starting from H1 as the most important to H6 as
+        the least important. Most browsers automatically add some space above
+        and below the content. Make sure not to use to make text Big or Bold.
+      </section>
+      <!-- Hr tag is used to create a Horizontal line -->
+      <hr />
+
+      <section>
+        <!-- h7 will work normally like any other element and not like a heading -->
+        <h7>Heading 7</h7> <h8>Heading 8</h8>
+
+        <pre>
+          <code>H7</code> or <code>H8</code> are not the tags recoganised by any
+          browser so any such custom tag will behave like a normal
+          <code>span</code> tag. <em>Browsers won't throw any error however it is not recommended to use.</em>
+        </pre>
+      </section>
+      <hr />
+
+      <!-- Article tag is used to represent any article in a webpage -->
+      <article>
+        <h2>Usage of paragraph tag</h2>
+        <p>
+          Paragraph tag is used to write any paragraph. Most browsers
+          automatically add some space above and below the content inside this
+          tag.
+          <strong>Note: </strong> Unlike <code>pre</code> tag,
+          <code>p</code> tag will remove any extra white spaces and will use the
+          full width available by the parent element to show the content.
+        </p>
+      </article>
+      <hr />
+
+      <section>
+        <!-- Custom tag, rarely used -->
+        <my-tag style="color: red"
+          >This is a custom tag with standard naming convention.</my-tag
+        >
+
+        <p>
+          This is the standard naming convention to use any custom html tag
+          <code>my-tag</code>.
+        </p>
+      </section>
+
+      <!-- Block level tags -->
+      <header>heading</header>
+      <nav>navbar</nav>
+      <aside>Aside <br />babitha</aside>
+      <article>article</article>
+      <section>section</section>
+      <div>division</div>
+      <p>paragraph</p>
+      <footer>footer</footer>
+
+      <div>Hello <span>how are you</span></div>
+
+      <!-- Inline level tags -->
+
+      <span>H<sub>2</sub>O</span>
+      <span>e=mc<sup>2</sup></span>
+
+      <!-- to hightlight some text  -->
+      <b>bold</b><br />
+
+      <!-- to show importance of some text -->
+      <strong>bold</strong><br />
+
+      <!-- to highlight the word -->
+      <i>italic</i><br />
+      <!-- to show inportance of the text -->
+      <em>italic</em><br />
+
+      <u>underline</u><br />
+
+      <!-- Some information you had that is no longer correct -->
+      <s>strike through</s><br />
+
+      <!-- to show the modification history of the content -->
+      <del>delete tag</del>
+
+      <!-- Self closing tag -->
+
+      <hr />
+
+      <!-- Comment -->
+      <!-- Homment -->
+    </main>
+    <footer>This is the footer tag to show the footer of some page</footer>
+  </body>
+</html>
